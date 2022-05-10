@@ -1,0 +1,32 @@
+Configuracion del entorno:
+Documentacion oficial: https://vuejs.org/guide/introduction.html#what-is-vue
+
+
+1) nodejs
+2) editor codigo
+3) pliggin especial de vue
+
+https://chrome.google.com/webstore/detail/vuejs-devtools/nhdogjmejiglipccpnnnanhbledajbpd?hl=es
+
+
+
+
+4) configuracion entorno en el editor, herramienta comando vue, para crear proyecto y demas
+
+> npm install -g @vue/cli
+
+> vue -v
+
+
+5) creacion de un proyecto
+
+CDN : <script src="https://unpkg.com/vue@next"></script>
+
+> npm init vue@latest
+
+
+6) estructura proyecto
+
+
+crear archivo html que arranque la app
+

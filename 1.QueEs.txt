@@ -1,0 +1,10 @@
+VUE;
+
+framework Javascript, front end
+arquitecturade componentes.
+permite dividir las aplicaciones en bloques,
+cualquier cosa que podamos necesitar puede ser un componente.
+
+Gracias a la arquitectura de componentes podemos construir aplicaciones a base de piezas reutilizables, de modo que, al final, las aplicaciones no son más que árboles de componentes que trabajan entre sí para implementar funcionalidades tan complejas como sea necesario.
+
+creador por Evan You

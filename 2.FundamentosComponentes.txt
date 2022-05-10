@@ -1,0 +1,30 @@
+Desarrollo basado en componentes: extraer las partes de un software encapsulados en componentes que interactuan entre si
+por medio de una interfaz. subsistemas que componen en sistema.
+
+los componentes se comunican entre si, por medio de la interfaz
+
+
+
+ejemplo:
+carrito compras & procesdor de pagos.
+
+Componentes UI --> de interfaz de usuario.
+labels, inputs, tables, nav, datepicker, rangos de fecha, selectores
+
+<input-date 
+    type="range"
+    from="">
+
+
+partes de un componente: View --> LA VISTA LA PARTE DONDE EL USUARIO interactuan
+ESTADO--> EJEMPLO un button . habilitado o deshabilitado, 
+Interfaz: atributos del elemento , como eventos 
+
+Patron MVVM --> separar la logica del codido, abtracción
+back-end y front-end
+
+
+
+view-model --> vuejs
+
+canal entre la vista y la logica de negocio 

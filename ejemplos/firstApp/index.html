@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Vue App</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+</head>
+<body>
+    <script src="https://unpkg.com/vue@next"></script>
+    <div id="app">{{ text }}</div>
+    <script>
+        //creacion de la aplicacion
+        const app = Vue.createApp({
+            
+            //funcion data siempre debuelve un objeto jason
+            data(){
+                return {
+                    text: "Hello World"
+                }
+            }
+        }).mount("#app");
+        console.log(app);
+    </script>
+</body>
+</html>

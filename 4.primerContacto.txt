@@ -1,0 +1,10 @@
+En el archivo creado 
+cramos el primer componente
+
+
+<div id="app"></div>
+
+
+si deseo cabmbiar el texto desde la consola del navegador
+
+app.text = "hello frodriguez";
