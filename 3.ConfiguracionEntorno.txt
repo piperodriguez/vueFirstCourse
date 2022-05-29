@@ -30,3 +30,12 @@ CDN : <script src="https://unpkg.com/vue@next"></script>
 
 crear archivo html que arranque la app
 
+
+> mkdir firstApp && cd firstApp && touch index.html
+
+
+
+abriendo el archivo en el navegador con la extension instalada y el cdn invocado en el archivo
+
+
+ya tenemos acceso al objeto window.Vue
