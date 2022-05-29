@@ -1,0 +1,10 @@
+ejemplo cargar una imagen
+
+directiva
+
+v.bind:
+
+ahora para modificar la ruta de la imagen por defecto en el browser
+
+
+app.pathImg="nuevaRuta"

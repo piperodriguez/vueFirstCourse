@@ -15,10 +15,12 @@
             //funcion data siempre debuelve un objeto jason
             data(){
                 return {
-                    text: "Hello World frodriguez"
-                }
+                    attr: 'src',//atributo del elemento
+                    pathImg: "https://http2.mlstatic.com/D_NQ_NP_848006-MCO45132190176_032021-W.jpg",//ruta imagen
+                    descripcionImg : "Imagen cargada con vuejs"//
+                };
             },
-            template: `<div v-once v-text="text"></div>`
+            template: `<img v-bind:[attr]="pathImg" v-bind:alt="descripcionImg">`
         }).mount("#app");
         console.log(app);
     </script>
