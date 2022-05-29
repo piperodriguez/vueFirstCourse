@@ -1,0 +1,29 @@
+
+interpolacion de datos:
+La interpolación de datos hace referencia a la forma como se trabaja con variables dentro de los componentes Vue. Estas variables utilizan la sintaxis de doble corchete {{ text }}
+
+interpolacion de datos video 2:
+
+crear un template por cada componente individual
+
+uso de directivas se aplican directamente como un antributo del elemento del dom
+
+<div v-text="text"></div>
+
+--browser console
+
+//redefinir valor de la variable
+app.text = 'gitana'
+
+
+--directiva para que no se puede modificar valor de la variable por consola navegadr
+
+<div v-once v-text="text"></div>
+
+--ojo nada de inputs cuando el valor llegue del usuario cuando utilice la directiva
+v-html
+
+
+
+
+

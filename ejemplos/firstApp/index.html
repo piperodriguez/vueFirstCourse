@@ -8,17 +8,17 @@
 </head>
 <body>
     <script src="https://unpkg.com/vue@next"></script>
-    <div id="app">{{ text }}</div>
+    <div id="app"></div>
     <script>
         //creacion de la aplicacion
         const app = Vue.createApp({
-            
             //funcion data siempre debuelve un objeto jason
             data(){
                 return {
-                    text: "Hello World"
+                    text: "Hello World frodriguez"
                 }
-            }
+            },
+            template: `<div v-once v-text="text"></div>`
         }).mount("#app");
         console.log(app);
     </script>
